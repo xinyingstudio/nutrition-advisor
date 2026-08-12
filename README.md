@@ -152,4 +152,4 @@ python scripts/nutrition_analysis.py menu "鱼香肉丝,番茄炒蛋" male lunch
 
 ## 📄 许可证
 
-[MIT](LICENSE) © 2026 智治共生 / Xinying
+[MIT](LICENSE) © 2026 智治共生团队 / Xinying
