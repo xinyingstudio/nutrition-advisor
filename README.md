@@ -6,7 +6,6 @@
 
 基于 1152 道食堂菜品的标准营养数据库，对照《中国居民膳食营养素参考摄入量 DRIs（2023）》《中国居民膳食指南（2022）》《WS/T 554-2017 学生餐营养指南》等权威标准，帮助学生了解「吃了什么、获得了什么营养、还缺什么、该怎么搭」。
 
-> 也可作为 [WorkBuddy](https://www.workbuddy.cn) 的 Skill 使用（见文末「作为 WorkBuddy 技能使用」）。
 
 ## ✨ 功能特性
 
@@ -110,7 +109,7 @@ python scripts/nutrition_analysis.py menu "鱼香肉丝,番茄炒蛋" male lunch
 
 ## 📊 数据说明
 
-`data/dishes_nutrition.json` 为**示例数据集**，来源于青岛酒店管理职业技术学院后勤「青酒管微后勤」2025–2026 学年食堂菜品（1152 道，已去重）。所有营养值依据《中国食物成分表》第 6 版，按**生重、可食部**测算，不同烹饪方式已估算添加油盐。
+`data/dishes_nutrition.json` 为**示例数据集**，来源于智治共生整理的学校食堂菜品（1152 道）。所有营养值依据《中国食物成分表》第 6 版，按**生重、可食部**测算，不同烹饪方式已估算添加油盐。
 
 如需用于其他学校 / 食堂，可替换该 JSON 文件，保持字段结构一致即可：
 
@@ -153,4 +152,4 @@ python scripts/nutrition_analysis.py menu "鱼香肉丝,番茄炒蛋" male lunch
 
 ## 📄 许可证
 
-[MIT](LICENSE) © 2026 青酒管微后勤 / Xinying
+[MIT](LICENSE) © 2026 智治共生 / Xinying
