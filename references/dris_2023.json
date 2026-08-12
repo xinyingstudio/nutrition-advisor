@@ -1,0 +1,82 @@
+{
+  "meta": {
+    "source": "中国居民膳食营养素参考摄入量 DRIs（2023版）",
+    "publisher": "中国营养学会",
+    "target_population": "18-24岁大学生（轻至中等身体活动水平）",
+    "notes": "本数据针对高职院校学生群体，以18-49岁成人RNI/AI为基础，结合大学生活动水平微调。RNI=推荐摄入量，AI=适宜摄入量，UL=可耐受最高摄入量，PI=建议摄入量，AMDR=宏量营养素可接受范围。"
+  },
+  "male_18_24": {
+    "label": "男性 18-24岁",
+    "pal": "中等身体活动(PAL=1.6)",
+    "energy": { "rni": 2400, "unit": "kcal/d", "breakfast": "600-720", "lunch": "840-960", "dinner": "720-840" },
+    "protein": { "rni": 65, "unit": "g/d", "per_meal_min": 20, "per_meal_ideal": 25 },
+    "fat": { "amdr_low": 20, "amdr_high": 30, "unit": "%E", "sat_fat_ul": 10 },
+    "carb": { "amdr_low": 50, "amdr_high": 65, "unit": "%E", "added_sugar_ul": 10 },
+    "fiber": { "ai": 30, "unit": "g/d" },
+    "sodium": { "ai": 1500, "pi": 2000, "ul": 2300, "unit": "mg/d", "per_meal_max": 670 },
+    "potassium": { "ai": 2000, "unit": "mg/d" },
+    "calcium": { "rni": 800, "ul": 2000, "unit": "mg/d", "per_meal_ideal": 270 },
+    "magnesium": { "rni": 330, "unit": "mg/d" },
+    "iron": { "rni": 12, "ul": 42, "unit": "mg/d" },
+    "zinc": { "rni": 12.5, "ul": 40, "unit": "mg/d" },
+    "selenium": { "rni": 60, "ul": 400, "unit": "μg/d" },
+    "vitamin_a": { "rni": 800, "ul": 3000, "unit": "μgRAE/d" },
+    "vitamin_d": { "rni": 10, "ul": 35, "unit": "μg/d" },
+    "vitamin_e": { "ai": 14, "unit": "mgα-TE/d" },
+    "vitamin_b1": { "rni": 1.4, "unit": "mg/d" },
+    "vitamin_b2": { "rni": 1.4, "unit": "mg/d" },
+    "vitamin_b6": { "rni": 1.4, "unit": "mg/d" },
+    "vitamin_b12": { "rni": 2.4, "unit": "μg/d" },
+    "vitamin_c": { "rni": 100, "pi": 200, "ul": 2000, "unit": "mg/d" },
+    "folate": { "rni": 400, "unit": "μgDFE/d" },
+    "niacin": { "rni": 14, "unit": "mgNE/d" },
+    "cholesterol": { "pi": 300, "unit": "mg/d" },
+    "water": { "ai": 1700, "unit": "ml/d" }
+  },
+  "female_18_24": {
+    "label": "女性 18-24岁",
+    "pal": "中等身体活动(PAL=1.6)",
+    "energy": { "rni": 2000, "unit": "kcal/d", "breakfast": "500-600", "lunch": "700-800", "dinner": "600-700" },
+    "protein": { "rni": 55, "unit": "g/d", "per_meal_min": 18, "per_meal_ideal": 20 },
+    "fat": { "amdr_low": 20, "amdr_high": 30, "unit": "%E", "sat_fat_ul": 10 },
+    "carb": { "amdr_low": 50, "amdr_high": 65, "unit": "%E", "added_sugar_ul": 10 },
+    "fiber": { "ai": 25, "unit": "g/d" },
+    "sodium": { "ai": 1500, "pi": 2000, "ul": 2300, "unit": "mg/d", "per_meal_max": 670 },
+    "potassium": { "ai": 2000, "unit": "mg/d" },
+    "calcium": { "rni": 800, "ul": 2000, "unit": "mg/d", "per_meal_ideal": 270 },
+    "magnesium": { "rni": 330, "unit": "mg/d" },
+    "iron": { "rni": 18, "ul": 42, "unit": "mg/d", "note": "女性因月经失血，铁需求高于男性" },
+    "zinc": { "rni": 7.5, "ul": 40, "unit": "mg/d" },
+    "selenium": { "rni": 60, "ul": 400, "unit": "μg/d" },
+    "vitamin_a": { "rni": 700, "ul": 3000, "unit": "μgRAE/d" },
+    "vitamin_d": { "rni": 10, "ul": 35, "unit": "μg/d" },
+    "vitamin_e": { "ai": 14, "unit": "mgα-TE/d" },
+    "vitamin_b1": { "rni": 1.2, "unit": "mg/d" },
+    "vitamin_b2": { "rni": 1.2, "unit": "mg/d" },
+    "vitamin_b6": { "rni": 1.2, "unit": "mg/d" },
+    "vitamin_b12": { "rni": 2.4, "unit": "μg/d" },
+    "vitamin_c": { "rni": 100, "pi": 200, "ul": 2000, "unit": "mg/d" },
+    "folate": { "rni": 400, "unit": "μgDFE/d" },
+    "niacin": { "rni": 12, "unit": "mgNE/d" },
+    "cholesterol": { "pi": 300, "unit": "mg/d" },
+    "water": { "ai": 1500, "unit": "ml/d" }
+  },
+  "student_meal_ws554_2017": {
+    "source": "WS/T 554-2017《学生餐营养指南》",
+    "notes": "中小学强制执行，高校食堂参照执行",
+    "per_meal_requirements": {
+      "energy_ratio": { "breakfast": "25-30%", "lunch": "35-40%", "dinner": "30-35%" },
+      "protein_per_meal_min_g": "来自优质蛋白质的比例≥50%",
+      "vegetables_per_meal_g": 150,
+      "food_categories_per_meal_min": 3,
+      "no_fried_more_than": "每周不超过2次",
+      "salt_per_meal_max_g": 2.5,
+      "oil_per_meal_max_g": 10
+    },
+    "weekly_requirements": {
+      "food_diversity_min": 12,
+      "dark_vegetables_ratio": "占蔬菜总量≥1/2",
+      "fish_poultry_egg_milk_frequency": "每天有鱼禽蛋奶大豆"
+    }
+  }
+}
