@@ -14,7 +14,7 @@ agent_created: true
 
 | 文件 | 说明 |
 |------|------|
-| `data/dishes_nutrition.json` | 1152道菜品完整营养数据（12项指标×1152道） |
+| `data/dishes_nutrition.json` | 1152道菜品完整营养数据（12项营养指标×1152道） |
 | `references/dris_2023.json` | DRIs 2023参考摄入量 + WS/T 554-2017学生餐标准 |
 | `references/dietary_guidelines_2022.md` | 膳食指南2022八大准则 + 大学生特别提示 |
 
@@ -77,7 +77,7 @@ python scripts/nutrition_analysis.py menu "鱼香肉丝,番茄炒蛋" male lunch
 - **本库扩展项**：在"1+4"基础上增加 膳食纤维、钙、铁、锌、维生素A、维生素C、胆固醇，共 12 项，更完整反映学生餐营养结构。
 - **与 DRIs 2023 对照**：12 项中能量、蛋白质、膳食纤维、钠、钙、铁、锌、维A、维C、胆固醇共 10 项有绝对推荐/参考值，可计算达成率；脂肪、碳水化合物按 DRIs 的 AMDR 供能比（20–30%E / 50–65%E）折算克数后评估。
 
-- ### 营养素key对照表
+### 营养素key对照表
 
 | key | 中文名 | 单位 | 说明 |
 |-----|--------|------|------|
